@@ -1,80 +1,169 @@
-# Welcome to GitHub
-
-Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
-
-## Repositories
-
-Right now, we’re in your first GitHub **repository**. A repository is like a folder or storage space for your project. Your project's repository contains all its files such as code, documentation, images, and more. It also tracks every change that you—or your collaborators—make to each file, so you can always go back to previous versions of your project if you make any mistakes.
-
-This repository contains three important files: The HTML code for your first website on GitHub, the CSS stylesheet that decorates your website with colors and fonts, and the **README** file. It also contains an image folder, with one image file.
-
-## Describe your project
-
-You are currently viewing your project's **README** file. **_README_** files are like cover pages or elevator pitches for your project. They are written in plain text or [Markdown language](https://guides.github.com/features/mastering-markdown/), and usually include a paragraph describing the project, directions on how to use it, who authored it, and more.
-
-[Learn more about READMEs](https://help.github.com/en/articles/about-readmes)
-
-## Your first website
-
-**GitHub Pages** is a free and easy way to create a website using the code that lives in your GitHub repositories. You can use GitHub Pages to build a portfolio of your work, create a personal website, or share a fun project that you coded with the world. GitHub Pages is automatically enabled in this repository, but when you create new repositories in the future, you'll need to enable GitHub Pages manually to launch your site.
-
-[Learn more about GitHub Pages](https://pages.github.com/)
-
-## Publish your site
-
-Your first GitHub Pages website is automatically published at: `https://your-username.github.io/`, where "your-username," is your personal username on GitHub. The HTML file—called `index.html`—is rendered as the home page and you'll be making changes to this file in the next step.
-
-Congratulations! You just launched your first GitHub Pages website. It's now live to share with the entire world.
-
-## Making your first edit
-
-When you make any change to any file in your project, you’re making a **commit**. If you fix a typo, update a filename, or edit your code, you can add it to GitHub as a commit. Your commits represent your project’s entire history—and they’re all saved in your project’s repository.
-
-With each commit, you have the opportunity to write a **commit message**, a short, meaningful comment describing the change you’re making to a file. So you always know exactly what changed, no matter when you return to a commit.
-
-## Practice: Customize your first GitHub website by writing HTML code
-
-Want to edit the site you just published? Let’s practice commits by introducing yourself in your `index.html` file. Don’t worry about getting it right the first time—you can always build on your introduction later.
-
-Let’s start with this template:
-
-```
-<p>Hello World! I’m [username]. This is my website!</p>
-```
-
-To add your introduction, copy our template and click the edit pencil icon at the top right hand corner of the `index.html` file.
-
-<img width="997" alt="edit-this-file" src="https://user-images.githubusercontent.com/18093541/63131820-0794d880-bf8d-11e9-8b3d-c096355e9389.png">
+# ODC DATA EXPLORATORY HACKATHON REPORT
 
 
-Delete this placeholder line:
+## Data Source
+The datasets used for this data exploratory analysis was that provided by the Open Data Community (ODC) and sourced from Ocean protocol a decentralized data exchange platform. These datasets are collections of two grants donation rounds which are the Fantom and UNICEF grants. These datasets contain transaction that occurred in the Fantom contribution from the 12th of December to the 1st of January and the UNICEF contribution from the 9th of December to the 21st. Alright, enough of the introductory story let’s get into the data.
 
-```
-<p>Welcome to your first GitHub Pages website!</p>
-```
+## Tools Used
+•	Power BI
+•	Microsoft Excel
 
-Then, paste the template to line 15 and fill in the blanks.
-
-<img width="1032" alt="edit-githuboctocat-index" src="https://user-images.githubusercontent.com/18093541/63132339-c3a2d300-bf8e-11e9-8222-59c2702f6c42.png">
-
-
-When you’re done, scroll down to the `Commit changes` section near the bottom of the edit page. Add a short message explaining your change, like "Add my introduction", then click `Commit changes`.
+## UNICEF Contribution
 
 
-<img width="1030" alt="add-my-username" src="https://user-images.githubusercontent.com/18093541/63131801-efbd5480-bf8c-11e9-9806-89273f027d16.png">
+![Fig 1](https://user-images.githubusercontent.com/55463668/215861852-c3c3e541-67a8-4650-87a9-8914bf13df9c.png)
 
-Once you click `Commit changes`, your changes will automatically be published on your GitHub Pages website. Refresh the page to see your new changes live in action.
+                                                  Fig 1
+                                                  
 
-:tada: You just made your first commit! :tada:
+The chart above shows the total contributions made by each contributor in the donation round. A total of $14,830 was donated by 64,130 contributors including both sybils and genuine donors. A maximum of $500 was donated with a mean value of $0.23104. A descriptive analysis also showed a mode of $0.0001 indicating a high likelihood of sybil activities. 
 
-## Extra Credit: Keep on building!
 
-Change the placeholder Octocat gif on your GitHub Pages website by [creating your own personal Octocat emoji](https://myoctocat.com/build-your-octocat/) or [choose a different Octocat gif from our logo library here](https://octodex.github.com/). Add that image to line 12 of your `index.html` file, in place of the `<img src=` link.
 
-Want to add even more code and fun styles to your GitHub Pages website? [Follow these instructions](https://github.com/github/personal-website) to build a fully-fledged static website.
 
-![octocat](./images/create-octocat.png)
+![Fig 2](https://user-images.githubusercontent.com/55463668/215862082-f2fe29c1-0672-42b0-83df-c37d284a1451.png)
 
-## Everything you need to know about GitHub
+                                                 Fig 2
 
-Getting started is the hardest part. If there’s anything you’d like to know as you get started with GitHub, try searching [GitHub Help](https://help.github.com). Our documentation has tutorials on everything from changing your repository settings to configuring GitHub from your command line.
+
+I filtered out addresses that contributed more than $1. This was because more 95% of sybil attackers contribute less than a dollar because of the nature of their attack. The chart above shows the distribution of contributions equal to or less than $1 for the UNICEF contribution round. A total of $2,682 was contributed for this with $2,620 worth of Dai token and $62 worth of Eth token. From the chart above we can see that a high fluctuation in the trend shows that there was a massive number of activities in this chart indicating a large number of donations made from $1 and below. Fig 3 below also shows a distribution of each token per day.
+ 
+ From Fig 2 above we can deduce that the highest contribution was made on the 12th day of the contribution and also the lowest contribution was recorded on the opening day. Using the trend line to analyze the charts, similar patterns can be noticed between the total contributions made in Fig 2 and to the Dai token in Fig 3. This similarity in patterns by both charts concludes that the Dai token was the domineering token in terms of donations made.
+
+
+![Fig 3](https://user-images.githubusercontent.com/55463668/215862336-71de050c-26bf-4d7a-852c-8258e4152f5f.png)
+
+                                                 Fig 3
+
+
+![Fig 4](https://user-images.githubusercontent.com/55463668/215862446-94915c21-26b1-4ab8-a8ac-c562685db3b6.png)
+ 
+                                                 Fig 4
+
+
+The chart above shows a distribution of the wallet interactions for the contribution. We can deduce that contrary to the amount of donation made the wallet interaction by Ethereum token donors supersedes that of Dai. A total of 61,742 contributions of $1 and below was deduced and 3047 of them were by Dai contributors while a whopping 58,695 of them were from Eth contributors. Further statistics sum up amount per contributor for Dai token to be $0.86 and $0.001 for Eth. 
+To uncover more trends and patterns I created a chart for the wallet interactions and amount contributed combined together.
+
+
+
+
+
+![Fig 5](https://user-images.githubusercontent.com/55463668/215862634-9c1d4874-d35a-448d-8dd0-8666b0969ecd.png)
+
+                                                  Fig 5
+
+
+The ratio of amount per contributor for the Eth token was a high indication of a probable sybil attack. Also from Fig 5, we can analyze an almost uniform rate of activity in the amount of contribution made by Eth donors with the sky-blue line. This suggests that the sybil attack was always taking place in the donation with very little increase in the amount donated day by day. 
+
+
+A statistical description analysis was carried out to determine the most reoccurring donation or mode value of the donation made equal to or less than $1 and the result was $0.0001. To further analyze this result, I filtered down the value of the amount donated to only $0.0001 the following conclusions were drawn from my analysis.
+
+
+
+##  Initial Conclusions
+•	A total of 10,984 sybils suspect were discovered.
+•	A total of $1.0984 of contribution was donated by these sybils.
+•	Ethereum was the only token used for this attack.
+•	This attack happened each day of the grant.
+•	Each donations made were to four destination wallets address only.
+
+[Here is a download link  to Ocean Protocol containing  the sybils data I detected](https://market.oceanprotocol.com/asset/did:op:8b133e8d3d2b37e94e25485e7c98503e505461b9095e78af6960666b5cdd4cf6)
+
+
+
+## Fantom Round
+
+
+
+![Fig 6](https://user-images.githubusercontent.com/55463668/215863628-908a8793-2fca-49b3-86d1-c50262e18a86.png)
+
+                                                         Fig 6
+                                                     
+
+The chart above gives an overview of the Fantom contribution round. The Fantom contribution round lasted for 21 days and recorded a sum total of $334,863 donations. A total of 139,337 donors participated in this round (sybils included). An initial statistic description reveals $1 as the mode, also the distribution had a mean value of $2.40.   Fig 7 shows a distribution of the fantom round by tokens.
+
+
+
+
+![Fig 7](https://user-images.githubusercontent.com/55463668/215863752-b3194a31-9219-4bb6-aad9-c19419ee5af9.png)
+
+                                                         Fig 7
+
+
+![Fig 8 (2)](https://user-images.githubusercontent.com/55463668/215863787-9fc68dde-3323-43ed-b762-9f41b36e7f6e.png)
+
+                                                           Fig 8
+
+
+Fig 7&8 shows different distribution of the tokens contributed. Fig 7 is a pie chart that shows the total distribution of the tokens donated throughout the fantom round while Fig 8 shows the distribution by days. 
+From the charts above we deduce that the order of token used were in this order;
+FTM - WFTM - DAI - BUSD
+Unlike the UNICEF round the Fantom round had a fairer share of tokens across each of them.
+
+
+## Fantom Wallet Analysis
+
+
+A chart was plotted for the wallet interaction that occurred during the donation round. 
+
+
+
+![Fig 9](https://user-images.githubusercontent.com/55463668/215864100-ccb934e5-a32a-4d9d-976a-db0e3c6f442e.png)
+
+                                                     Fig 9
+
+
+
+![Fig 10](https://user-images.githubusercontent.com/55463668/215864195-d9339d84-ff58-4a4f-8d4b-696731142683.png)
+
+                                                       Fig 10
+
+
+
+From the chart above we can see the distribution of the wallets used FTM was the dominant with 129,275 wallet interaction, WFTM was the next with 30,906 wallet interaction, DAI was the next with 3,943 wallet interaction, and lastly BUSD with a total of 36 wallet interactions.
+To further analyze our wallet and total token deposited, I performed a Value : Wallet (VTW) computation to give us more insights on the cash flow.
+
+Where = (Total Sum)/(Total No of Wallets)
+
+BUSD=$3.92
+DAI=$2.42
+FTM=$2.28
+WFTM=$5.08
+
+I started my analysis with the token with the lowest VTW ratio i.e FTM token.
+I started my analysis by filtering the token to FTM only and also filtering the amount contributed to less than or equal to $1.
+
+After which, I filtered out these features I selected address that their cumulative contributions amounted to $100 or greater. Below is a table of the addresses.
+
+
+
+![Fig 12 (Table)](https://user-images.githubusercontent.com/55463668/215864608-33d2d80d-801c-47d7-825e-daa583dc3c0b.png)
+
+
+## Conclusions
+•	Compared to the UNICEF round the Fantom round had more sybils behavioral pattern compared to the UNICEF round. From my analysis I concluded that the Fantom round had more sybil attackers compared to the UNICEF round which had just a few attacks that occurred in a large frequency.
+
+•	Due to the large size of the Fantom dataset and high numbers of attackers I could not fish out 100% of the attackers because of time constraints. But I would be happy to do so if the Open Data Community request for it.
+
+•	A behavioral pattern detected from the attackers in the UNICEF round was splitting of a low amount of token into very minute values and using a ton of different addresses to attack.
+
+•	Another behavioral pattern detected from the attackers in the Fantom round was that sybils were able to use the same address to vote/ attack multiple times.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
