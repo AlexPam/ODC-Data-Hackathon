@@ -65,9 +65,13 @@ A statistical description analysis was carried out to determine the most reoccur
 
 ##  Initial Conclusions
 •	A total of 10,984 sybils suspect were discovered.
+
 •	A total of $1.0984 of contribution was donated by these sybils.
+
 •	Ethereum was the only token used for this attack.
+
 •	This attack happened each day of the grant.
+
 •	Each donations made were to four destination wallets address only.
 
 [Here is a download link  to Ocean Protocol containing  the sybils data I detected](https://market.oceanprotocol.com/asset/did:op:8b133e8d3d2b37e94e25485e7c98503e505461b9095e78af6960666b5cdd4cf6)
